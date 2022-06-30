@@ -4,7 +4,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-          Console.WriteLine ("Hello Mono World");
+          
         string password ;
         Console.Write("Input a username: ");
         password = Console.ReadLine();
