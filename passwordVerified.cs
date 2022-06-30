@@ -11,7 +11,7 @@ public class HelloWorld
         if(password.Length == 0){
             Console.Write("password should not be null \n");
         }
-        else if(password.Length < 8){
+        else if(password.Length <= 8){
             Console.Write("password shiould be larger than 8 chars \n");
         }
         
